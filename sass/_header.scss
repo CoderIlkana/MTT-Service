@@ -1,0 +1,225 @@
+.header-top {
+    width: 100%;
+    background-color: #2B343B;
+
+    .container {
+        .row {
+            display: flex;
+            justify-content: space-between;
+
+            .top-left {
+                width: 60%;
+                height: 50px;
+                background-color: #2B343B;
+                display: flex;
+                align-items: center;
+                color: white;
+                font-size: 13px;
+                transition: .6s;
+
+
+                a {
+                    text-decoration: none;
+                    color: white;
+
+                    &:hover {
+                        color: red;
+                        transition: .6s;
+                    }
+                }
+            }
+
+            // -------------------------------------------
+            .top-right {
+                width: 40%;
+                height: 50px;
+                background-color: #2B343B;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                color: white;
+
+
+
+
+
+                .icon1 {
+                    // width: 22%;
+                    border-left: 1px solid rgb(255, 255, 255);
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+                    margin-left: 30px;
+                    padding: 5px 0px 5px 20px;
+
+                    a {
+                        i {
+                            color: white;
+
+                            &:hover {
+                                color: red;
+                                transition: .4s;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ----------------------header-----------------------
+
+.header-center {
+    width: 100%;
+    background-color: #EFF4F8;
+
+
+    .container {
+        .row {
+            display: flex;
+            justify-content: space-between;
+
+            .left-box {
+                width: 30%;
+
+                img {
+                    width: 55%;
+                    height: 120px;
+                }
+            }
+
+            .center-box {
+                width: 40%;
+                height: 120px;
+                // background-color: rgb(36, 56, 56);
+                display: flex;
+                align-items: center;
+                justify-content: end;
+
+                a {
+                    padding-right: 90px;
+                    border-right: 1px solid rgb(216, 216, 216);
+                    text-decoration: none;
+                    color: black;
+                    transition: .7s;
+
+                    &:hover {
+                        color: red;
+                        transition: .7s;
+
+                        i {
+                            color: red;
+                            transition: .7s;
+
+                        }
+                    }
+
+                    i {
+                        color: #025E9A;
+
+                        &:hover {
+                            transition: .7s;
+                            color: red;
+
+                            a {
+                                color: red;
+                                transition: .7s;
+
+                            }
+                        }
+                    }
+                }
+            }
+
+            .right-box {
+                width: 25%;
+                height: 120px;
+                // background-color: rgb(134, 134, 134);
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                text-decoration: none;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    margin-right: 30px;
+                    transition: .7s;
+
+                    &:hover {
+                        color: red;
+                        transition: .7s;
+
+                        i {
+                            color: red;
+                            transition: .7s;
+
+                        }
+                    }
+
+                    i {
+                        color: #025E9A;
+
+                        &:hover {
+                            transition: .7s;
+                            color: red;
+
+                            a {
+                                color: red;
+                                transition: .7s;
+
+                            }
+                        }
+
+                    }
+                }
+
+            }
+
+            // ------------
+
+            .bars {
+                z-index: 9999;
+                padding: 0px;
+                width: fit-content;
+                margin-top: 35px;
+                cursor: pointer;
+                height: fit-content;
+            }
+
+            .bar1,
+            .bar2,
+            .bar3 {
+                width: 27px;
+                height: 5px;
+                background-color: #414141;
+                margin: 6px 0;
+                transition: 0.4s;
+                z-index: 999;
+                border-radius: 5px;
+
+            }
+
+            .change .bar1 {
+                transform: translate(0, 11px) rotate(-45deg);
+                z-index: 100;
+
+            }
+
+            .change .bar2 {
+                opacity: 0;
+                z-index: 100;
+
+            }
+
+            .change .bar3 {
+                transform: translate(0, -11px) rotate(45deg);
+                z-index: 100;
+
+            }
+        }
+    }
+
+}

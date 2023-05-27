@@ -1,0 +1,66 @@
+// --------header stiky------------------------
+@media screen and (max-width: 991px) {
+  .header-center {
+    position: fixed;
+    top: 0px;
+    z-index: 999999;
+    background-color: #EFF4F8;
+
+
+  }
+
+}
+
+
+// -----------carousel 1---------
+@media screen and (max-width: 991px) {
+  .carousel {
+    margin-top: 120px;
+  }
+
+}
+
+
+// carousel2 
+@media only screen and (max-width: 760px) {
+
+  .carousel2 .owl-carousel .owl-stage .item {
+    width: 50%;
+    height: 290px;
+    margin: 0 auto;
+  }
+
+  .carousel2 .owl-carousel .owl-nav .owl-prev {
+    position: absolute;
+    left: 0px;
+  }
+
+  .carousel2 .owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    right: 0px;
+  }
+}
+
+
+// carousel 4
+
+@media only screen and (max-width: 760px) {
+  .section3 .carousel4 .owl-carousel .owl-stage .item1 {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+}
+
+
+// --------kondisionertemiri------------------------
+@media screen and (max-width: 768px) {
+  .kondisionertemiri .container .row .rightboxKon {
+    height: 333px !important;
+
+    .info2 {
+      padding: 0px;
+    }
+
+  }
+}

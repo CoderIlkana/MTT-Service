@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <!-- aos -->
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" /> -->
+
+    <link rel="stylesheet" href="/sass/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- -------header-top----- -->
+    <div class="header-top d-none d-lg-block" id="hedtop">
+      <div class="container p-0">
+        <div class="row">
+          <!-- ------------------------------------------------ -->
+          <div class="top-left">
+            <div>
+              <a href="/MTTServiceMenteqelerimiz/mttservice.html"
+                >MTT Service Məntəqələrimiz</a
+              >
+            </div>
+            <div class="ms-5">
+              <a href="/FrequentlyAskedQuestion/Asked.html"
+                >Tez-tez verilen suallar</a
+              >
+            </div>
+          </div>
+
+          <!-- --------------------------------------------------->
+          <div class="top-right">
+            <div><i class="fa-regular fa-envelope me-2"></i></div>
+            <div class="solitonservice">office@solitonservice.com</div>
+            <div class="icon1 me-5">
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i class="fa-brands fa-instagram ms-2"></i
+              ></a>
+              <a href="https://www.youtube.com/" target="_blank"
+                ><i class="fa-brands fa-youtube ms-2"></i
+              ></a>
+              <a
+                href="https://api.whatsapp.com/send/?phone=%2B994516189630&text&type=phone_number&app_absent=0"
+                target="_blank"
+                ><i class="fa-brands fa-whatsapp ms-2" target="_blank"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------------------header ------------------>
+    <div class="header-center">
+      <div class="container">
+        <div class="row">
+          <!-- --------------------------------------- -->
+          <div class="left-box">
+            <a href="/index.html"> <img src="/imgs/logo.svg" alt="" /></a>
+          </div>
+          <!-- -------------------------- -->
+          <div class="center-box d-none d-lg-flex">
+            <a href="">
+              <i class="me-1 fa-solid fa-phone"></i>(+994 12) 565-1-565</a
+            >
+          </div>
+
+          <!-- ------------------------------------------>
+          <div class="right-box d-none d-lg-flex">
+            <a href=""
+              ><i class="me-1 fa-solid fa-phone"></i>(+994 12) 565-1-565</a
+            >
+          </div>
+
+          <div
+            class="bars d-lg-none d-block me-lg-0 me-md-4 me-5"
+            onclick="showMenu(this)"
+          >
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     
+     <!-- hide box-->
+     <section id="hide" class="secTwo d-lg-none d-block">
+      <!-- lang box -->
+      <div class="language-openmenu">
+        <div class="langbox">
+          <p>AZ</p>
+          <p>EN</p>
+          <p>RU</p>
+        </div>
+      </div>
+
+      <!-- ul li -->
+      <ul class="secUl">
+        <li><a href="/index.html">Əsas səhifə</a></li>
+        <div class="accordionWrapper">
+          <div class="accordionItem open">
+            <div class="accordionItemContent">
+              <!-- click -->
+              <button class="accordion">Temir</button>
+              <div class="panel">
+                <ul>
+                  <li>
+                    <a href="/AirConditioner/AirConditioner.html"
+                      >Kondisioner temiri</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/Refrigerator/Refrigerator.html"
+                      >Soyuducu temiri</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/WashingMachine/WashingMachine.html"
+                      >Paltaryuyan temiri</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/DishwashingMachine/DishwashingMachine.html"
+                      >Sənaye tipli qabyuyan təmiri</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/RepairOfIndustrialType/RepairOfIndustrialType.html"
+                      >Sənaye tipli paltaryuyan təmiri</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/DryingMachine/DryingMachine.html"
+                      >Sənaye tipli quruducu təmiri</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- click -->
+              <button class="accordion">Quraşdırılma</button>
+              <div class="panel">
+                <ul>
+                  <li><a href="/AirConditioner2/AirConditioner2.html">Kondisioner qurasdirilmasi</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+       
+        </div>
+        <!-- <li><a href="#">Quraşdırılma</a></li> -->
+        <li><a href="/Masterorder/MasterOrder.html">Usta sifarişi</a></li>
+        <li><a href="/Delivery/Delivery.html">Çatdırılma</a></li>
+        <li><a href="/AboutUs/AboutUs.html">Haqqımızda</a></li>
+        <li><a href="/FrequentlyAskedQuestion/Asked.html">Tez-tez verilən suallar</a></li>
+        <li><a href="/Contact/contact.html">Əlaqə</a></li>
+      </ul>
+
+      <!-- number box -->
+      <div class="numberbox-openmenu">
+        <div class="numberbox">
+          <a href="tel:+994555555555"
+            ><i class="me-1 fa-solid fa-phone"></i> (+994 99) 322 32 44</a
+          >
+          <a href="tel:+994555555555">
+            <i class="me-1 fa-solid fa-phone"></i>(+994 51) 618 96 30</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------- navbar------------------->
+
+    <div class="navbarr d-none d-lg-block">
+      <div class="container p-0">
+        <div class="nav">
+          <ul class="ulNav" id="ulNav">
+            <li class="liNav"><a class="activeli " href="/index.html" id="EsasSehife">Esas sehife</a></li>
+            <!--  -->
+            <li class="liNav">
+              <a class="activeli active"  href="">Temir<i class="ms-2 fa-solid fa-angle-down"></i> </a>
+              <div class="dropdownn-menu">
+                <ul class="ulDropdownMenu">
+                  <li class="liDropdownMenu">
+                    <a href="/AirConditioner/AirConditioner.html"
+                      >Kondisioner temiri</a
+                    >
+                  </li>
+                  <li class="liDropdownMenu">
+                    <a href="/Refrigerator/Refrigerator.html"
+                      >Soyuducu temiri</a
+                    >
+                  </li>
+                  <li class="liDropdownMenu">
+                    <a href="/WashingMachine/WashingMachine.html"
+                      >Paltaryuyan temiri</a
+                    >
+                  </li>
+                  <li class="liDropdownMenu">
+                    <a href="/DishwashingMachine/DishwashingMachine.html"
+                      >Senaye tipli qabyuyan temiri</a
+                    >
+                  </li>
+                  <li class="liDropdownMenu">
+                    <a
+                      href="/RepairOfIndustrialType/RepairOfIndustrialType.html"
+                      >Senaye tipli paltaryuyan temiri</a
+                    >
+                  </li>
+                  <li class="liDropdownMenu border-bottom-0">
+                    <a href="/DryingMachine/DryingMachine.html"
+                      >Senaye tipli quruducu temiri</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="liNav">
+              <a href="" class="activeli"
+                >Qurasdirma<i class="ms-2 fa-solid fa-angle-down"></i
+              ></a>
+              <div class="dropdownn-menu2">
+                <ul class="ulDropdownMenu2">
+                  <li class="liDropdownMenu2">
+                    <a href="/AirConditioner2/AirConditioner2.html">Kondisioner qurasdirilmasi</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="liNav">
+              <a class="activeli" href="/Masterorder/MasterOrder.html">Usta sifarisi</a>
+            </li>
+            <li class="liNav">
+              <a class="activeli" href="/Delivery/Delivery.html">Catdirilma</a>
+            </li>
+            <li class="liNav">
+              <a class="activeli" href="/AboutUs/AboutUs.html">Haqqimizda</a>
+            </li>
+            <li class="liNav"><a class="activeli" href="/Contact/contact.html">Elaqe</a></li>
+            <li class="liNav">
+              <select id="langs">
+                <option class="option1" value="az">AZ</option>
+                <option class="option1" value="en">EN</option>
+                <option class="option1" value="ru">RU</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------ section 1-------- -->
+    <div class="MTTServiceMenteqelerimiz">
+      <h1 class="ps-lg-0 ps-4 pe-lg-0 pe-4">Sənaye tipli qabyuyan təmiri</h1>
+    <div class="mttserboxcenter">
+      <ul class="col-12">
+        <li><a href="/index.html">Esas sehife</a></li>
+        <li><a href="">/</a></li>
+        <li><a href="">Temiri</a></li>
+        <li><a href="">/</a></li>
+        <li><a href="">Sənaye tipli qabyuyan təmiri</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+    <!-- --------------------- section 2--------- -->
+
+    <div class="kondisionertemiri">
+      <div class="container">
+        <div class="row">
+          <!-- ---------------left---------- -->
+          <div class="leftboxKon col-md-8 col-12">
+            <h1>Sənaye tipli qabyuyan təmiri. Qabyuyan ustasi</h1>
+            <p class="mb-5">Sənaye tipli qabyuyan təmiri. Qabyuyan ustasi:</p>
+            <img src="/DishwashingMachine/imgs/img1.jpg" alt="" />
+            <p class="mt-3">
+              Tıxanma və pompanın sıradan çıxması – qabyuyan maşınların ən geniş
+              yayılmış nasazlığıdır. İkinci yerdə qızdırıcı elementin üzərində
+              ərp yığılması yaxud onun sıradan çıxması nəticəsində suyun
+              qızmaması dayanır. İlk baxışda sadə görünən nasazlıq (“maşın suyu
+              boşaltmır”, “su sadəcə olaraq qızmır”) ciddi səbəbdən yarana
+              bilər. Buna görə bu problemin aradan qaldırılması üçün ən yaxşısı
+              qabyuyan maşınların təmirini həyata keçirən "MTT Servis" şirkətinə
+              müraciət etməkdir. Servisin qabyuyan ustasi qabyuyan masin üçün
+              istənilən nasazlığını aradan qaldıracaq və siz yenidən texnikanın
+              köməyilə asan və yüngül yuyulmadan tamamilə həzz ala bilərsiniz.
+            </p>
+            <p>
+              Qabyuyan masinlar üçün gözlənilməz nasazlığı kifayət qədər
+              narahatedici haldır, lakin istənilən halda onu işlək vəziyyətə
+              gətirmək üçün yumruq zərbəsi endirmək və ya öz talantı ilə öyünən
+              qonuşunu usta qismində köməyə çağırmaq lazım deyil. Nasaz
+              texnikaya qarşı oxşar təsir variantlarını istifadə etməklə, siz
+              yalnız texniki xidmətin qiymətini qaldırırsınız, axı qabyuyan
+              masin məişət texnikasıdır, ona görə də qabyuyan masinlar təmirini
+              ancaq peşəkarlara etibar etmək lazımdır. Texniki xidmət
+              mərkəzimizin servis mühəndisləri sizə qabyuyan üçün təkrar
+              birləşdirilməsinə sərf edəcəyiniz pula qənaət etməklə aqreqatı
+              elektrik və su şəbəkəsindən ayırmadan qabyuyan temiri etməyə kömək
+              edəcəklər.
+            </p>
+            <h3>Sənaye tipli qabyuyan təmiri evde</h3>
+            <p>Sənaye tipli qabyuyan təmiri evde:</p>
+            <p>
+              Məişət texnikası və geniş istehsal çevrəsi sahibləri hər zaman
+              qabyuyan temiri həyata keçirən mütəxəssislərimizə güvənə bilərlər.
+              Qabyuyan masinlar üçün təmir işləri vəziyyətdən asılı olaraq
+              qiymətləndirilir. İstənilən zaman bizimlə əlaqə saxlaya bilərsiniz
+              – bizə zəng edin!
+            </p>
+            <h3>Sənaye tipli qabyuyan təmiri. Qabyuyan maşın haqqında</h3>
+
+            <p>Sənaye tipli qabyuyan təmiri. Qabyuyan maşın haqqında:</p>
+
+            <p>
+              Ümumiyyətlə,qabyuyan iş prinsipi qabların,qaynar su və xüsusi
+              yuyucu vasitələrin köməyi ilə yüksək təzyiqlə yuyulmasından
+              ibarətdir. Bir qayda olaraq, yuma tsikli özündə ən azı soyuq su
+              ilə yaxalama, qaynar su və yuyucu vasitəlrlə yaxalama və ardınca
+              gələn qurutmadan ibarətdir. Qabyuyan masin üçün işinin nəticəsi
+              yuyulmuş və qurudulmuş qab-qacaq. Sonuncu, olduqca yaxşı cəhət
+              özünü şüşə və büllurun yuyulması zamanı büruzə verir, hansı adi
+              hallarda parlaqlığın əldə olunması və suyun izinin qalmamsı üçün
+              bu əşyaları dəsmalla silmək lazım gəlir. Yeri gəlmişkən deyirlər
+              bu həm də zərərlidir – qabların üzərində xırda tüklər qalır, hansı
+              ki sonradan biz onları asanlıqla uduruq. Qabyuyan masinlar üçün
+              belə bir təhlükə yoxdur. İş vaxtı 40 – 90 dəqiqə, modeldən və
+              seçilən tsikldən asılı olaraq. Qabyuyan hər şeyi yuyur, amma heç
+              nəyi qaşıyıb təmizləmir. Daha doğrusu bərk yanmış (qarslanmış)
+              qazança və tavaları qabyuyan masin vasitəsilə tamamilə təmiz
+              vəziyyətdə yumaq mümkün deyil. Lakin burada bəzi qeyd-şərtlər var.
+              Əvvəla əgər çox çirklənmiş qablar əvvəlcədən suda isladılarsa
+              (bunun üçün xüsusi rejim mövcuddur) bu bir çox hallarda kömək
+              edir. İkincisi, əgər sizdə qazança və tavalar bir çox nüsxədədirsə
+              siz sadəcə onları daha bir dəfə yumaya qoya bilərsiniz. İstənilən
+              halda qabyuyan maşın qaşıyıb təmizləyə bilmir əvəzində parla
+              yumşalda bilir. Ümumiyyətlə və bütövlükdə qabların qabyuyan
+              maşında necə yuyulması 3 əsas amildən asılıdır: yuyucu vasitənin
+              keyfiyyəti, suyun təzyiqi (su axınının qablara çırpılma gücü) və
+              qabların masin daxilində isti və rütubətli atmosferdə olduğu zaman
+              müddəti. Qabyuyan maşında nəyi yumaq məsləhət deyil və ya xüsusi
+              ehtiyatlılıqla yumaq lazımdır?
+            </p>
+            <ul>
+              <li>
+                Nazik şüşə. Bu rejimdə bir az yüksək temperatur (45-55° C)
+                istifadə olunur. Amma, deyəsən evimizdə elə bir nazik şüşə
+                yoxdur ki qabyuyan istehsalçıları onu nəzərə alsınlar, ona görə
+                ki bir çoxları (eləcə də biz) qədəhlərin yuyulmasında eynilə
+                tavaları yumaq üçün istifadə olunan rejimi tətbiq edir. Bu da
+                xoşagəlməz nəticələrə gətirib çıxarır.
+              </li>
+              <li>
+                Üzərində nazik təbəqə rəsm olan qab-qaşıq. Qabın üzərindəki
+                nazik təbəqə rəsm (stəkanın üzərindəki qızıl həlqə tipli)
+                qabyuyan masin yuyulma zamanı daha tez solur.
+              </li>
+              <li>
+                Taxta qab-qaşıq. Bir qayda olaraq ağacdan hazırlanmış əşyaları
+                qabyuyan masinda yumaq məsləhət görülmür. Çəngəllərin və
+                bıçaqların taxta qulplarına (və ya başqa materialdan hazırlamış
+                tutacaqlar) gəldikdə bu ədalətli olar, ona görə ki onlar quruyub
+                çatlayar. Qabyuyan masinda yemək hazırlamaq üçün istifadə olunan
+                taxta lövhələr isə quruyub çatlamadan əla yuyulur. Taxta
+                lövhələri əllə yuyan zaman bəzən onları köhnə hopmuş çirkdən
+                təmizləmək üçün bıçaqla və ya sumbata kağızı ilə sürtmək
+                (qaşımaq) lazım gəlir, lakin, sizdə qabyuyan masin varsa buna
+                ehtiyac qalmır.
+              </li>
+              <li>
+                Plastmasların bəzi növləri. Aşağı keyfiyyətli plastmas yüksək
+                temperatura məruz qaldıqda qabyuyan masininda sadəcə çatlaya və
+                qırıla bilər.
+              </li>
+              <li>
+                Qızıl və gümüş suyuna salınmış qab-qaşıq. Bu kimi qablar kifayət
+                qədər tez solacaq (ağaracaq).
+              </li>
+              <li>
+                Bıçaqlar. Deyirlər ki onlar qabyuyan masinda yuyulsa kütləşir.
+                Bu yoxlanılmayıb.
+              </li>
+              <li>Anodlaşdırılmış qab-qaşıq. Bu qablar qaralır.</li>
+            </ul>
+            <p>
+              Qabyuyanların həcmi-əldə olan pulun və əlbəttə ki mənzildəki yerin
+              kifayət etdiyi qədər. Nə qədər böyük həcmlisini alsanız bir o
+              qədər gec-gec yükləmək lazım gələcək.
+            </p>
+
+            <p>
+              Qabyuyan masinlar üçün standart variantları 4, 8 və 12
+              nəfərlikdir. Birnicisi böyük mikrodalğalı soba ölçüsündə, ikincisi
+              ensiz paltaryuyan (eni 45 sm) ölçüsündə, üçüncüsu də eynilə lakin
+              60 sm enindədir. 2-3 nəfərlik ailə üçün 12 nəfərlik qabyuyan israf
+              deyil, onu ortalama olaraq gündə bir dəfə yükləmək lazım gəlir.
+              Bundan başqa,ancaq 12 nəfərlik maşınlarda yarım yükləmə rejimi
+              var. 4 nəfərlik qabyuyan ümumiyyətlə ancaq evdə yemək yeməyən,
+              təkcə buterbrodla çay içən subaya münasib ola bilər. Ona görə ki
+              bütün qazançalar bu modellərə sığışmır, sığışsa da boşqablara ümüd
+              yeri qalmır.
+            </p>
+
+            <p>
+              Qabyuyan servis. Qabyuyan masinlar üçün istehlak materialları:
+              hansılar, nə qədər və nə üçün?
+            </p>
+
+            <p>
+              Qabyuyan masin üçün 3 növ istehlak materialı tələb olunur: Yuyucu
+              vasitə, duz və yaxalayıcı.
+            </p>
+
+            <ul>
+              <li>
+                Yuyucu vasitə üç cür olur, maye, toz və həb (tablet) şəklində.
+                Həblər ən az uyğun olandır, belə ki porsiya qabaqcadan olçülür.
+                Toz alarkən, karton qutuda yox burulan qapaqlı plastik qabda
+                (əksər hallarda bu qapağa ölçü stəkanı bərkidilir) almaq
+                lazımdır, çünki rahatdır. Praktikada 1 kq yuyucu toz (əksər
+                hallarda kiloqramla satılır) səpilmə miqdarından asılı olaraq 60
+                – 120 yumaya bəs edir. Yuxarıda qeyd edildiyi kimi yuyulmanın
+                keyfiyyəti yuyucu vasitənin keyfiyyətindən son dərəcə asılıdır.
+                Qabyuyan masinda adi yuyucu vasitədən istifadə etməyə cəhd
+                etməyin, bu heç də yaxşı nəticə verməz.
+              </li>
+              <li>
+                Qabyuyan üçün yaxalayıcı – qurutmadan sonra qablarda suyun
+                izinin qalmaması üçün təmiz su ilə yaxalamadan sonra əlavə
+                edilən mayedir. Bu həm də daha yaxşı təmizlənməyə səbəb
+                olur.Yaxalayıcı bir neçə yuyulmaya bir dəfə əlavə edilir.
+              </li>
+              <li>
+                Qabyuyan duzu – suyun yumşaldılması üçün lazım olan kristaldır
+                (Yuyucu vasitənin daha yaxşı köpüklənməsi üçün). Daha doğrusu,
+                su yumşalma üçün ion mübadiləsi filtrdən keçirilir, duz isə onun
+                regenerasiyası üçün istifadə olunur. Uzun müddətə bir dəfə
+                səpilir. Qabyuyan masin duzun sərfiyyat miqdarı suyun
+                sərtliyindən asılıdır.
+              </li>
+            </ul>
+
+            <div class="img2soyuducu">
+              <img src="/DishwashingMachine/imgs/img2.jpg" alt="" />
+            </div>
+
+            <h3>
+              Hansı əlavə rejim və xüsusi imkanlar qabyuyan masinda vardır və
+              onlar nə dərəcədə lazımlıdır?
+            </h3>
+            <p>
+              Hansı əlavə rejim və xüsusi imkanlar qabyuyan masinda vardır və
+              onlar nə dərəcədə lazımlıdır:
+            </p>
+
+            <p>
+              Rejimlərin müəyyən dəsti (komplekti), bu şübhəsiz qabyuyan masin
+              modelindən asılıdır, bunlar aşağıdakılardan ibarətdir:
+            </p>
+
+            <ul>
+              <li>
+                Şüşə və “İncə məmulatlar” üçün xüsusi rejim (təlimatda belə qeyd
+                olunur). Praktik olaraq bütün modellərdə mövcuddur, nadir
+                hallarda lazım olur, hərgah ümumiyyətlə lazım olsa.
+              </li>
+              <li>
+                Gücləndirilmiş yuma rejimi – çox çirkli qablar üçün. Bu da
+                tez-tez rast gəlinir, vaxtaşırı lazım olur.
+              </li>
+              <li>
+                Yarı yükləmə rejimi. Qabyuyan masinda mövcud olan 2 lotokdan
+                (şöbə) ancaq biri doldurulur, beləliklə vaxt istisna olmaqla
+                suya,yuyucu vasitəsinə və elektrik enerjisinə qənaət edilir.
+                Artıq qeyd edildiyi kimi ancaq 12 nəfərlik modellərdə rast
+                gəlinir.
+              </li>
+              <li>
+                Sürətləndirilmiş yuma rejimi: Siz yemək yeyən zaman qabyuyan
+                masin suyun qızdırılması üçün qoşulur, yeməkdən sonra qablar
+                qabyuyan masina qoyulur və artıq isidilmiş suda yuyulur,
+                beləliklə təbii ki, tez alınır.
+              </li>
+              <li>
+                Soyuq yaxalama (islatma adlanır). Qab-qaşıq soyuq su ilə yuyucu
+                vasitəsiz yaxalanır. Böyük qabyuyan masina sahib olan kiçik ailə
+                üçün faydalıdır.
+              </li>
+
+              <li>
+                Qaynar yaxalama və qurutma. Həmçinin yuyucu vasitəsiz rejimdir,
+                “profilaktika” (hansısa vaxt ərzində istifadə edilməyən qabların
+                yaxalanması) və yeməkdən qabaq boşqabların qızıdırılması üçün
+                edilir (restoranda olduğu kimi). Bu rejim qabyuyan masin üçün
+                nadir hallarda istifadə olunur.
+              </li>
+
+              <li>
+                Qənaətcil rejim. Adi yuma rejimində olduğu kimi, lakin
+                tamamlayıcı qurutma olmadan – elektrik enerjisinə 20% qənaət
+                edir. Qabyuyan üçün bizdə qənaət etmək çox da qəbul edilməyib,
+                buna görə nadir hallarda bu rejimdən istifadə edilir.
+              </li>
+            </ul>
+            <p>
+              Bosch qabyuyan temiri, Samsung qabyuyan ustasi, LG qabyuyan masin
+              ustasi, Electrolux qabyuyan servis
+            </p>
+          </div>
+
+          <!-- ---------------------- right ------- -->
+          <div class="rightboxKon col-md-4 col-12">
+            <div class="infobox1">
+              <ul class="ulinfobox1 col-md-5 col-12 ">
+                <li class="liinfobox1"><a href="/AirConditioner/AirConditioner.html">Kondisioner temiri</a></li>
+                <li class="liinfobox1"><a href="/Refrigerator/Refrigerator.html">Soyuducu temiri</a></li>
+                <li class="liinfobox1"><a href="/AirConditioner/AirConditioner.html">Paltaryuyan temiri</a></li>
+                <li class="liinfobox1 borderleft1"><a href="/DishwashingMachine/DishwashingMachine.html"> Senaye tipli qabyuyan temiri</a></li>
+                <li class="liinfobox1"><a href="/RepairOfIndustrialType/RepairOfIndustrialType.html">Senaye tipli paltaryuyan  temiri</a></li>
+                <li class="liinfobox1"><a href="/DryingMachine/DryingMachine.html">Senaye tipli quruducu  temiri</a></li>
+            </ul>
+            </div>
+
+            <div class="info2 d-md-block d-none">
+              <h1>Əlaqə</h1>
+              <p>
+                <i class="me-2 fa-solid fa-location-dot"></i>Bakı ş., Şamaxı
+                yolu 15-ci km.
+              </p>
+              <p>
+                <a href="">
+                  <i class="me-2 fa-solid fa-phone"></i>(+994 99) 322 32 44</a
+                >
+              </p>
+              <p>
+                <a href=""
+                  ><i class="me-2 fa-solid fa-envelope"></i
+                  >office@mttservice.net</a
+                >
+              </p>
+            </div>
+
+            <div class="info3 ps-md-0 ps-5 pe-md-0 pe-5">
+              <div class="minInfo">
+                <a href="tel:+994555555555"><i class="fa-solid fa-phone"></i></a>
+              </div>
+              <div class="minInfo">
+                <a
+                  href="https://api.whatsapp.com/send/?phone=%2B994516189630&text&type=phone_number&app_absent=0"
+                  target="_blank"
+                  ><i class="fa-brands fa-whatsapp"></i
+                ></a>
+              </div>
+              <div class="minInfo">
+                <a href=""><i class="fa-solid fa-envelope"></i></a>
+              </div>
+              <div class="minInfo">
+                <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="infobutton col-md-7 col-12 d-flex justify-content-md-end justify-content-center align-items-center"
+      >
+        <button><a href="#">Usta sifaris et</a></button>
+      </div>
+    </div>
+    <!-- ----------------------- footer---------------------- -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- ----------- -->
+          <div class="box1footer col-12 col-sm-6 col-lg-3">
+            <div class="img-footer">
+              <img src="/imgs/footer/logoFooter.svg" alt="" />
+            </div>
+
+            <p>
+              MTT Servis təcrübəli servis usta və konsultantlar komandasıdır
+            </p>
+            <div class="iconbox1footer">
+              <a href="https://www.facebook.com/"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="https://www.instagram.com/" class="ms-3"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.youtube.com/" class="ms-3"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a
+                href="https://api.whatsapp.com/send/?phone=%2B994516189630&text&type=phone_number&app_absent=0"
+                class="ms-3"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- ----------------- -->
+          <div class="box2footer col-12 col-sm-6 col-lg-4">
+            <h5>Saytın xəritəsi</h5>
+
+            <div class="listFooter d-flex">
+              <!-- -left -->
+              <div class="listf">
+                <ul>
+                  <li><i class="fa-solid fa-angles-right"></i>Əsas səhifə</li>
+                  <li><i class="fa-solid fa-angles-right"></i>Quraşdırılma</li>
+                  <li><i class="fa-solid fa-angles-right"></i>Çatdırılma</li>
+                  <li><i class="fa-solid fa-angles-right"></i>Əlaqə</li>
+                </ul>
+              </div>
+              <!-- right- -->
+              <div class="listf ms-5">
+                <ul>
+                  <li><i class="fa-solid fa-angles-right"></i>Təmir</li>
+                  <li><i class="fa-solid fa-angles-right"></i>Usta sifarişi</li>
+                  <li><i class="fa-solid fa-angles-right"></i> Haqqımızda</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------- -->
+          <div class="box2footer col-12 col-sm-12 col-lg-5">
+            <h5>Əlaqə</h5>
+
+            <div class="listFooter d-flex">
+              <!-- -left -->
+              <div class="listf">
+                <ul>
+                  <li>
+                    <i class="me-1 fa-solid fa-phone"></i>(+994 99) 322 32 44
+                  </li>
+                  <li>
+                    <i class="me-1 fa-solid fa-phone"></i>(+994 51) 618 96 30
+                  </li>
+                </ul>
+              </div>
+              <!-- right- -->
+              <div class="listf ms-5">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i> Bakı ş., Şamaxı
+                    yolu 15-ci km.
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i> office@mttservice.net
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- footerbottom -->
+          <hr />
+          <div class="footerbottom">
+            <div class="container">
+              <div class="row">
+                <!-- --------- -->
+                <div class="leftBottomfooter col-12 col-md-6">
+                  <p>© 2022 MTT Service. Müəllif hüquqları qorunur.</p>
+                </div>
+                <!-- ------- -->
+                <div
+                  class="rightBottomfooter col-12 col-md-6 d-flex justify-content-md-end justify-content-start"
+                >
+                  <a>Site By <img src="/imgs/footer/jedai.png" alt="" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- open menu js -->
+<script src="../js/openMenu.js"></script>
+<script src="/js/accardion.js"></script>
+
+  </body>
+</html>

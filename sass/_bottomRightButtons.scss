@@ -1,0 +1,45 @@
+.db {
+    display: block !important;
+}
+
+.top-button {
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    height: auto;
+    z-index: 999;
+    display: none;
+
+    // background-color: red;
+    .btnfour {
+        font-size: 25px;
+        background-color: #0175c2;
+        margin-bottom: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px 13px;
+        border-radius: 8px;
+        border: 1px solid #0175c2;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.28);
+        cursor: pointer;
+
+        &:hover {
+            background-color: white;
+            border: 1px solid #0175c2;
+            transition: .8s;
+
+            i {
+                color: #0175c2;
+                transition: .8s;
+
+
+            }
+        }
+
+
+        i {
+            color: white;
+        }
+    }
+}

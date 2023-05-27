@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <!-- aos -->
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" /> -->
+
+    <link rel="stylesheet" href="/sass/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- -------header-top----- -->
+    <div class="header-top d-none d-lg-block" id="hedtop">
+      <div class="container p-0">
+        <div class="row">
+          <!-- ------------------------------------------------ -->
+          <div class="top-left">
+            <div>
+              <a href="/MTTServiceMenteqelerimiz/mttservice.html"
+                >MTT Service Məntəqələrimiz</a
+              >
+            </div>
+            <div class="ms-5">
+              <a href="/FrequentlyAskedQuestion/Asked.html"
+                >Tez-tez verilen suallar</a
+              >
+            </div>
+          </div>
+
+          <!-- --------------------------------------------------->
+          <div class="top-right">
+            <div><i class="fa-regular fa-envelope me-2"></i></div>
+            <div class="solitonservice">office@solitonservice.com</div>
+            <div class="icon1 me-5">
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i class="fa-brands fa-instagram ms-2"></i
+              ></a>
+              <a href="https://www.youtube.com/" target="_blank"
+                ><i class="fa-brands fa-youtube ms-2"></i
+              ></a>
+              <a
+                href="https://api.whatsapp.com/send/?phone=%2B994516189630&text&type=phone_number&app_absent=0"
+                target="_blank"
+                ><i class="fa-brands fa-whatsapp ms-2" target="_blank"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------------------header ------------------>
+    <div class="header-center">
+      <div class="container">
+        <div class="row">
+          <!-- --------------------------------------- -->
+          <div class="left-box">
+            <a href="/index.html"> <img src="/imgs/logo.svg" alt="" /></a>
+          </div>
+          <!-- -------------------------- -->
+          <div class="center-box d-none d-lg-flex">
+            <a href="">
+              <i class="me-1 fa-solid fa-phone"></i>(+994 12) 565-1-565</a
+            >
+          </div>
+
+          <!-- ------------------------------------------>
+          <div class="right-box d-none d-lg-flex">
+            <a href=""
+              ><i class="me-1 fa-solid fa-phone"></i>(+994 12) 565-1-565</a
+            >
+          </div>
+
+          <div
+            class="bars d-lg-none d-block me-lg-0 me-md-4 me-5"
+            onclick="showMenu(this)"
+          >
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!-- hide box-->
+     <section id="hide" class="secTwo d-lg-none d-block">
+      <!-- lang box -->
+      <div class="language-openmenu">
+        <div class="langbox">
+          <p>AZ</p>
+          <p>EN</p>
+          <p>RU</p>
+        </div>
+      </div>
+
+      <!-- ul li -->
+      <ul class="secUl">
+        <li><a href="/index.html">Əsas səhifə</a></li>
+        <div class="accordionWrapper">
+          <div class="accordionItem open">
+            <div class="accordionItemContent">
+              <!-- click -->
+              <button class="accordion">Temir</button>
+              <div class="panel">
+                <ul>
+                  <li>
+                    <a href="/AirConditioner/AirConditioner.html"
+                      >Kondisioner temiri</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/Refrigerator/Refrigerator.html"
+                      >Soyuducu temiri</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/WashingMachine/WashingMachine.html"
+                      >Paltaryuyan temiri</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/DishwashingMachine/DishwashingMachine.html"
+                      >Sənaye tipli qabyuyan təmiri</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/RepairOfIndustrialType/RepairOfIndustrialType.html"
+                      >Sənaye tipli paltaryuyan təmiri</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/DryingMachine/DryingMachine.html"
+                      >Sənaye tipli quruducu təmiri</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- click -->
+              <button class="accordion">Quraşdırılma</button>
+              <div class="panel">
+                <ul>
+                  <li><a href="/AirConditioner2/AirConditioner2.html">Kondisioner qurasdirilmasi</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+       
+        </div>
+        <!-- <li><a href="#">Quraşdırılma</a></li> -->
+        <li><a href="/Masterorder/MasterOrder.html">Usta sifarişi</a></li>
+        <li><a href="/Delivery/Delivery.html">Çatdırılma</a></li>
+        <li><a href="/AboutUs/AboutUs.html">Haqqımızda</a></li>
+        <li><a href="/FrequentlyAskedQuestion/Asked.html">Tez-tez verilən suallar</a></li>
+        <li><a href="/Contact/contact.html">Əlaqə</a></li>
+      </ul>
+
+      <!-- number box -->
+      <div class="numberbox-openmenu">
+        <div class="numberbox">
+          <a href="tel:+994555555555"
+            ><i class="me-1 fa-solid fa-phone"></i> (+994 99) 322 32 44</a
+          >
+          <a href="tel:+994555555555">
+            <i class="me-1 fa-solid fa-phone"></i>(+994 51) 618 96 30</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------- navbar------------------->
+
+    <div class="navbarr d-none d-lg-block">
+      <div class="container p-0">
+        <div class="nav">
+          <ul class="ulNav" id="ulNav">
+            <li class="liNav"><a class="activeli " href="/index.html" id="EsasSehife">Esas sehife</a></li>
+            <!--  -->
+            <li class="liNav">
+              <a class="activeli active"  href="">Temir<i class="ms-2 fa-solid fa-angle-down"></i> </a>
+              <div class="dropdownn-menu">
+                <ul class="ulDropdownMenu">
+                  <li class="liDropdownMenu">
+                    <a href="/AirConditioner/AirConditioner.html"
+                      >Kondisioner temiri</a
+                    >
+                  </li>
+                  <li class="liDropdownMenu">
+                    <a href="/Refrigerator/Refrigerator.html"
+                      >Soyuducu temiri</a
+                    >
+                  </li>
+                  <li class="liDropdownMenu">
+                    <a href="/WashingMachine/WashingMachine.html"
+                      >Paltaryuyan temiri</a
+                    >
+                  </li>
+                  <li class="liDropdownMenu">
+                    <a href="/DishwashingMachine/DishwashingMachine.html"
+                      >Senaye tipli qabyuyan temiri</a
+                    >
+                  </li>
+                  <li class="liDropdownMenu">
+                    <a
+                      href="/RepairOfIndustrialType/RepairOfIndustrialType.html"
+                      >Senaye tipli paltaryuyan temiri</a
+                    >
+                  </li>
+                  <li class="liDropdownMenu border-bottom-0">
+                    <a href="/DryingMachine/DryingMachine.html"
+                      >Senaye tipli quruducu temiri</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="liNav">
+              <a href="" class="activeli"
+                >Qurasdirma<i class="ms-2 fa-solid fa-angle-down"></i
+              ></a>
+              <div class="dropdownn-menu2">
+                <ul class="ulDropdownMenu2">
+                  <li class="liDropdownMenu2">
+                    <a href="/AirConditioner2/AirConditioner2.html">Kondisioner qurasdirilmasi</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="liNav">
+              <a class="activeli" href="/Masterorder/MasterOrder.html">Usta sifarisi</a>
+            </li>
+            <li class="liNav">
+              <a class="activeli" href="/Delivery/Delivery.html">Catdirilma</a>
+            </li>
+            <li class="liNav">
+              <a class="activeli" href="/AboutUs/AboutUs.html">Haqqimizda</a>
+            </li>
+            <li class="liNav"><a class="activeli" href="/Contact/contact.html">Elaqe</a></li>
+            <li class="liNav">
+              <select id="langs">
+                <option class="option1" value="az">AZ</option>
+                <option class="option1" value="en">EN</option>
+                <option class="option1" value="ru">RU</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!------------------------ section 1-------- -->
+    <div class="MTTServiceMenteqelerimiz">
+      <h1 class="ps-lg-0 ps-4 pe-lg-0 pe-4">Sənaye tipli quruducu təmiri</h1>
+      <div class="mttserboxcenter">
+        <ul class="col-12">
+          <li><a href="/index.html">Esas sehife</a></li>
+          <li><a href="">/</a></li>
+          <li><a href="">Temiri</a></li>
+          <li><a href="">/</a></li>
+          <li><a href="">Sənaye tipli quruducu təmiri</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- --------------------- section 2--------- -->
+
+    <div class="kondisionertemiri">
+      <div class="container">
+        <div class="row">
+          <!-- ---------------left---------- -->
+          <div class="leftboxKon col-md-8 col-12">
+            <h1>Sənaye tipli quruducu təmiri. Paltarquruducu ustasi</h1>
+            <p class="mb-3">
+              Sənaye tipli quruducu təmiri. Paltarquruducu ustasi:
+            </p>
+            <img src="/RepairOfIndustrialType/imgs/img1.jpg" alt="" />
+            <p>
+              Əgər mürəkkəb nasazlığı aşkar etmək lazımdırsa, usta onu yerindəcə
+              servis test üsulu ilə test edərək nasazlığı təyin edə bilər. Bu
+              halda paltarquruducu masini sökməyə ehtiyac olmayacaq. Əgər bu
+              vasitə ilə nasazlığı aşkar etmək mümkün deyilsə onda biz
+              müştərilərimizə məhsulu servis şəraitində paltarqurudan temiri
+              etmək təklif edirik. Tez-tez təmirə ehtiyac olmasın deyə elementar
+              təhlükəsizlik və istismar qaydarına riayət etmək kifayətdir. Buna
+              baxmayaraq paltarquruducu xarab olubsa biz onu tez və keyfiyyətli
+              qaydyda təmir edə bilərik. Paltarquruducu temiri şirkətimizin ən
+              çox tələb olunan xidmətlərindın biridir.
+            </p>
+
+            <p>
+              Paltarquruducu masin temiri müəyyən bilik və bacarığa malik
+              təcrübəli paltarqurudan ustasi tərəfindən aparılmalıdır. Əks halda
+              düzgün olmayan diaqnostika nəticəsində lazım olmayan ehtiyat
+              hissələrə pul xərcləmək lazım gələr.
+            </p>
+
+            <p>
+              Paltarquruducu təmiri bizə sifariş verib siz əmin olacaqsınız ki,
+              işi peşə icra edəcək və texnikanı təkrar paltarquruducu temiri
+              etdirməyə ehtiyac qalmayacaq.
+            </p>
+
+            <p>
+              Bundan başqa bilavasitə təmirdən sonra texnik, paltarquruducu
+              masin uzunmüddətli işinin təmin edilməsi üçün sizə istifadə
+              təlimatı təqdim edəcək.
+            </p>
+
+            <p>
+              Münasib qiymət və peşəkarlıqdan əlavə ustalarımızın üstünlüyü
+              ondadır ki, biz sizin üçün istənilən əlverişli olan zamanda, iş
+              vaxtında eləcə də qeyri iş vaxtında paltarquruducu temiri həyata
+              keçirə bilərik.
+            </p>
+
+            <h3 class="mt-5">
+              Sənaye tipli quruducu təmiri. Paltarquruducu maşının əsas iş
+              prinsipləri
+            </h3>
+            <p>
+              Sənaye tipli quruducu təmiri. Paltarquruducu maşının əsas iş
+              prinsipləri:
+            </p>
+
+            <p>
+              Paltarquruducu masin nəm paltarların yüklənildiyi sadə böyük
+              barabanadır. Kəmərlərlə yanlardan bağlanmış şkifli mühərrik
+              barabanı hərəkətə gətirir. Elektrik qızdırıcı elementi ilə
+              isidilmiş hava paltarları qurutmaq üçün barabandan keçir.
+              Barabanın temperaturu və sürəti paltarquruducu masin idarəetmə
+              pultunun taymer qurğusundan idarə olunan termostatlarla
+              nizamlanır.
+            </p>
+
+            <p>
+              Təhlükəsizlik qurğusu olaraq barabanda adətən qapı elektrik açarı
+              var, hansı ki, o işlək hissələri aktivləşdirir. Əgər qapı lazımi
+              surətdə bağlanmırsa paltarquruducu masin idarəetmə pultunun
+              tənzimləmə parametrlərindən asılı olmayaraq işə düşmür. Əksər
+              paltarquruducu maşınlar idarəetmə pultlarında olan “sıfırlama”
+              düyməsi ilə təchiz olunub. Əgər mühərrik hərəkət etmirsə, sərin
+              (soyuq) hava quruducusuna on dəqiqə ərzində soyuması üçün fasilə
+              verin və bundan sonra “sıfırlama” düyməsinə basın.
+            </p>
+
+            <p>
+              Əgər mühərriklə, elektrik açarları və ya elektrik sistemi ilə heç
+              bir problem yoxdursa bu yenidən paltarquruducu masini işə salacaq.
+              Əks halda paltarquruducu masin temiri olunmalidi. Bu məqalədə biz
+              xidmətin xırda proeblemləri ilə sərbəst davranmanın yollarını
+              müzakirə edəcəyik. Siz nasazlığı müəyyən etmək üçün paltarqurudan
+              masini sökməlisiniz, beləliklə onun daxili hissəsini
+              yoxlamalısınız. İşlənmiş qazın çıxış dəliyi də həmçinin lif yığır.
+              Çıxış dəliyinin xidməti özündə paltarquruducu çıxış dəliyinin
+              podşipnikində və ya çıxış dəliyində olan ekranın lifdən
+              təmizlənməsini ehtiva edir.
+            </p>
+
+            <p>
+              Qeyd edək ki çox sayda yeni paltarquruducu masinlarda elektron
+              diaqnostika sistemi var ki, istifadə haqqında təlimatda
+              göstərilir.
+            </p>
+
+            <p>
+              Xəbərdarlıq: paltarquruducu maşınla hər hansı bir işi görməzdən
+              əvvəl əmin olun ki o söndürülüb. Elektrik enerji mənbəyinə gedən
+              birləşmə naqilini ayırın. Əgər bu qazla işləyən quruducudursa qaz
+              təchizat krantını bağlayın.
+            </p>
+
+            <h3 class="mt-5">Sənaye tipli quruducu təmiri və diaqnostikası</h3>
+
+            <p>Sənaye tipli quruducu təmiri və diaqnostikası:</p>
+            <ul>
+              <li>
+                Bu peşəkar paltaquruducu ustasi üçün işdir. Çoxillik təcrübəmizə
+                əsaslanaraq biz əminliklə iddia edə bilərik ki, bizim servis
+                mərkəzi sizin paltaquruducu masin temiri vaxtında və keyfiyyətlə
+                edə bilər.
+              </li>
+              <li>
+                Məişət texnikasının təmirini peşəkarlara etibar edin beləliklə
+                siz pulunuza və vaxtınıza qənaət edəcəksiniz.
+              </li>
+            </ul>
+            <p>
+              Məişət texnikasının təmiri və qoşulması fəaliyyətimizin əsas
+              növüdür. Biz Bakı şəhərinin hüdudlarında paltarquruducu masinlar
+              təmirini evlərdə həyata keçiririk.
+            </p>
+
+            <p>
+              Toplanmış təcrübə paltarqurudan ustalari məişət texnikasının
+              praktik olaraq istənilən çətinlikdə təmirini həyata keçirməyə
+              imkan verir.
+            </p>
+            <p>
+              Siz birbaşa saytımızdan və ya sadəcə zəng edərək sifariş verə
+              bilərsiniz. Bizim usta sizinlə əlaqə saxlayaraq sizə uyğun bir
+              vaxtda ünvana gələcək. Habelə, məişət texnikası üçün ehtiyat
+              hissələrin satışı da şirkətimizin xidmətləri siyahısına daxildir.
+            </p>
+            <p>
+              Biz sizə uzun müddət paltarquruducu masin temiri ilə
+              rastlaşmamağınız üçün yüksək keyfiyyətli ehtiyat hissələr təklif
+              edirik.
+            </p>
+
+            <p>
+              LG paltarquruducu servis, Samsung paltarqurudan ustasi, Bosch
+              paltarquruducu temiri, Electolux paltarquruducu masin temiri.
+            </p>
+
+            <h5 class="mt-5">
+              Sənaye tipli Quruducu maşınlar üçün Qızdırıcı ten(Tolkar və Tolon
+              markaları üçün uyğundur)
+            </h5>
+
+            <p>
+              Sənaye tipli Quruducu maşınlar üçün Qızdırıcı ten (Tolkar və Tolon
+              markaları üçün uyğundur)
+            </p>
+
+            <div class="fivebox d-flex align-content-between flex-wrap">
+              <div class="img2soyuducu">
+                <img src="/DryingMachine/imgs/box6img1.jfif" alt="" />
+              </div>
+              <div class="img2soyuducu">
+                <img src="/DryingMachine/imgs/box6img2.jfif" alt="" />
+              </div>
+              <div class="img2soyuducu">
+                <img src="/DryingMachine/imgs/box6img3.jfif" alt="" />
+              </div>
+              <div class="img2soyuducu">
+                <img src="/DryingMachine/imgs/box6img4.jfif" alt="" />
+              </div>
+              <div class="img2soyuducu">
+                <img src="/DryingMachine/imgs/box6img5.jfif" alt="" />
+              </div>
+              <div class="img2soyuducu">
+                <img src="/DryingMachine/imgs/box6img6.jfif" alt="" />
+              </div>
+            </div>
+            <h5 class="mt-5">Sənaye tipli quruducu maşınlar üçün qapı rezini</h5>
+            <p>Sənaye tipli quruducu maşınlar üçün qapı rezini</p>
+
+            <div class="fivebox d-flex align-content-between flex-wrap mt-5">
+              <div class="img2soyuducu">
+                <img src="/RepairOfIndustrialType/imgs/box5img6.jpg" alt="" />
+              </div>
+
+              <div class="img2soyuducu">
+                <img src="/RepairOfIndustrialType/imgs/box5img7.jpg" alt="" />
+              </div>
+            </div>
+
+            <h3 class="mt-5">Sənaye tipli quruducu maşınlar üçün universal ana kart dəsti</h3>
+<p>Sənaye tipli quruducu maşınlar üçün universal ana kart dəsti</p>
+
+
+<div class="fivebox d-flex align-content-between flex-wrap mt-3">
+  <div class="img2soyuducu">
+    <img src="/DryingMachine/imgs/box1img1.jpg" alt="" />
+  </div>
+</div>
+
+<h3 class="mt-5">Sənaye tipli quruducu maşınlar üçün İnvertor blok</h3>
+<p>Sənaye tipli quruducu maşınlar üçün İnvertor blok:</p>
+
+<div class="fivebox d-flex align-content-between flex-wrap mt-3 mb-5">
+  <div class="img2soyuducu">
+    <img src="/DryingMachine/imgs/box1img01.jpg" alt="" />
+  </div>
+</div>
+
+
+
+          </div>
+
+          <!-- ---------------------- right ------- -->
+          <div class="rightboxKon col-md-4 col-12">
+            <div class="infobox1">
+              <ul class="ulinfobox1 col-md-5 col-12">
+                <li class="liinfobox1">
+                  <a href="/AirConditioner/AirConditioner.html"
+                    >Kondisioner temiri</a
+                  >
+                </li>
+                <li class="liinfobox1">
+                  <a href="/Refrigerator/Refrigerator.html">Soyuducu temiri</a>
+                </li>
+                <li class="liinfobox1">
+                  <a href="/AirConditioner/AirConditioner.html"
+                    >Paltaryuyan temiri</a
+                  >
+                </li>
+                <li class="liinfobox1">
+                  <a href="/DishwashingMachine/DishwashingMachine.html">
+                    Senaye tipli qabyuyan temiri</a
+                  >
+                </li>
+                <li class="liinfobox1">
+                  <a href="/RepairOfIndustrialType/RepairOfIndustrialType.html"
+                    >Senaye tipli paltaryuyan temiri</a
+                  >
+                </li>
+                <li class="liinfobox1 borderleft1">
+                  <a href="/DryingMachine/DryingMachine.html"
+                    >Senaye tipli quruducu temiri</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="info2 d-md-block d-none">
+              <h1>Əlaqə</h1>
+              <p>
+                <i class="me-2 fa-solid fa-location-dot"></i>Bakı ş., Şamaxı
+                yolu 15-ci km.
+              </p>
+              <p>
+                <a href="">
+                  <i class="me-2 fa-solid fa-phone"></i>(+994 99) 322 32 44</a
+                >
+              </p>
+              <p>
+                <a href=""
+                  ><i class="me-2 fa-solid fa-envelope"></i
+                  >office@mttservice.net</a
+                >
+              </p>
+            </div>
+
+            <div class="info3 ps-md-0 ps-5 pe-md-0 pe-5">
+              <div class="minInfo">
+                <a href="tel:+994555555555"
+                  ><i class="fa-solid fa-phone"></i
+                ></a>
+              </div>
+              <div class="minInfo">
+                <a
+                  href="https://api.whatsapp.com/send/?phone=%2B994516189630&text&type=phone_number&app_absent=0"
+                  target="_blank"
+                  ><i class="fa-brands fa-whatsapp"></i
+                ></a>
+              </div>
+              <div class="minInfo">
+                <a href=""><i class="fa-solid fa-envelope"></i></a>
+              </div>
+              <div class="minInfo">
+                <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="infobutton col-md-7 col-12 d-flex justify-content-md-end justify-content-center align-items-center"
+      >
+        <button><a href="#">Usta sifaris et</a></button>
+      </div>
+    </div>
+    <!-- ----------------------- footer---------------------- -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- ----------- -->
+          <div class="box1footer col-12 col-sm-6 col-lg-3">
+            <div class="img-footer">
+              <img src="/imgs/footer/logoFooter.svg" alt="" />
+            </div>
+
+            <p>
+              MTT Servis təcrübəli servis usta və konsultantlar komandasıdır
+            </p>
+            <div class="iconbox1footer">
+              <a href="https://www.facebook.com/"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="https://www.instagram.com/" class="ms-3"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.youtube.com/" class="ms-3"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a
+                href="https://api.whatsapp.com/send/?phone=%2B994516189630&text&type=phone_number&app_absent=0"
+                class="ms-3"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- ----------------- -->
+          <div class="box2footer col-12 col-sm-6 col-lg-4">
+            <h5>Saytın xəritəsi</h5>
+
+            <div class="listFooter d-flex">
+              <!-- -left -->
+              <div class="listf">
+                <ul>
+                  <li><i class="fa-solid fa-angles-right"></i>Əsas səhifə</li>
+                  <li><i class="fa-solid fa-angles-right"></i>Quraşdırılma</li>
+                  <li><i class="fa-solid fa-angles-right"></i>Çatdırılma</li>
+                  <li><i class="fa-solid fa-angles-right"></i>Əlaqə</li>
+                </ul>
+              </div>
+              <!-- right- -->
+              <div class="listf ms-5">
+                <ul>
+                  <li><i class="fa-solid fa-angles-right"></i>Təmir</li>
+                  <li><i class="fa-solid fa-angles-right"></i>Usta sifarişi</li>
+                  <li><i class="fa-solid fa-angles-right"></i> Haqqımızda</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------- -->
+          <div class="box2footer col-12 col-sm-12 col-lg-5">
+            <h5>Əlaqə</h5>
+
+            <div class="listFooter d-flex">
+              <!-- -left -->
+              <div class="listf">
+                <ul>
+                  <li>
+                    <i class="me-1 fa-solid fa-phone"></i>(+994 99) 322 32 44
+                  </li>
+                  <li>
+                    <i class="me-1 fa-solid fa-phone"></i>(+994 51) 618 96 30
+                  </li>
+                </ul>
+              </div>
+              <!-- right- -->
+              <div class="listf ms-5">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i> Bakı ş., Şamaxı
+                    yolu 15-ci km.
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i> office@mttservice.net
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- footerbottom -->
+          <hr />
+          <div class="footerbottom">
+            <div class="container">
+              <div class="row">
+                <!-- --------- -->
+                <div class="leftBottomfooter col-12 col-md-6">
+                  <p>© 2022 MTT Service. Müəllif hüquqları qorunur.</p>
+                </div>
+                <!-- ------- -->
+                <div
+                  class="rightBottomfooter col-12 col-md-6 d-flex justify-content-md-end justify-content-start"
+                >
+                  <a>Site By <img src="/imgs/footer/jedai.png" alt="" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- open menu js -->
+    <script src="../js/openMenu.js"></script>
+    <script src="/js/accardion.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,58 @@
+.asked {
+    width: 100%;
+    height: auto;
+
+    .container {
+        .row {
+
+            // ----left---
+            .left-asked {
+                height: 600px;
+                background-color: transparent;
+                position: relative;
+                
+                .img2asked {
+                    margin-bottom: 50%;
+                    
+                    
+                    img {
+                        position: absolute;
+                        bottom:14%;
+                        right: 28px;
+                        border: 11px solid rgb(255, 255, 255);
+                        
+                    }
+                }
+
+            }
+
+            // -right----------
+            .right-asked {
+                height: auto;
+
+
+               
+                .buttonAsked{
+                    display: flex;
+                    justify-content: end;
+                    margin-top: 70px;
+                    margin: 80px 0px;
+                    button{
+                      border: none;
+                      background-color: #0071BB;
+                      color: white;
+                      padding: 12px 30px;
+                      border-radius: 5px;
+                      font-weight: 600;
+                    box-shadow: 5px 10px 18px #8f8f8f;
+
+                    }
+                }
+                  
+               
+            }
+
+        }
+    }
+}
+

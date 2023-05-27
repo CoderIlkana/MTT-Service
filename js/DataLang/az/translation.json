@@ -1,0 +1,67 @@
+    {
+        "langs" :[
+            {
+                "lang":"az",
+                "text": "MTT Service Məntəqələrimiz",
+                "FrequentlyAskedQuestion":"tez tez verilen suallar",
+                "EsasSehife":"Esas sehife",
+                "Temir":"Temir",
+                "Qurasdirma":"Qurasdirma",
+                "UstaSifarisi":"Usta Sifarisi",
+                "Catdirilma":"Catdirilma",
+                "Haqqimizda":"Haqqimizda",
+                "Elaqe":"Elaqe"
+
+
+
+
+
+
+                
+                
+
+
+                
+        
+
+            },
+            {
+                "lang":"en",
+                "text": "Our MTT Service Points ",
+                "FrequentlyAskedQuestion":"FrequentlyAskedQuestion",
+                "EsasSehife":"home",
+                "Temir":"Iron",
+                "Qurasdirma":"Installation",
+                "UstaSifarisi":"Master Order",
+                "Catdirilma":"Don't be bullied",
+                "Haqqimizda":"About us",
+                "Elaqe":"Contact"
+
+
+
+
+
+          
+
+            },
+            {
+                "lang":"ru",
+                "text": "Наши пункты обслуживания МТТ",
+                "FrequentlyAskedQuestion":"Часто задаваемые вопросы",
+                "EsasSehife":"Главная страница",
+                "Temir":"Железо",
+                "Qurasdirma":"Монтаж",
+                "UstaSifarisi":"Главный заказ",
+                "Catdirilma":"Не запугивайте",
+                "Haqqimizda":"Не О нас",
+                "Elaqe":"Контакт"
+
+
+
+
+                
+                
+            }
+         ]
+    }
+

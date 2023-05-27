@@ -1,0 +1,47 @@
+body {
+    overflow-x: hidden !important;
+
+}
+
+
+
+
+
+* {
+    outline: none
+}
+
+@import"header";
+@import"navbar";
+@import"carousel1";
+@import"section1";
+@import"carousel2";
+@import"blueBox";
+@import"mttService";
+@import"carousel4";
+@import"asked";
+@import"blueBox2";
+@import"footer";
+
+// MTTServiceMenteqelerimiz
+@import"MTTServiceMenteqelerimiz";
+// FrequentlyAskedQuestion
+@import"FrequentlyAskedQuestion";
+// Masterorder
+@import"Masterorder";
+// Delivery
+@import"Delivery";
+// AboutUs
+@import"AboutUs";
+// AirConditioner
+@import"AirConditioner";
+// AirConditioner
+@import"AirConditioner2";
+// _MediaQueries
+@import"_MediaQueries";
+// _RepairOfIndustrialType
+@import"_RepairOfIndustrialType";
+// _scroll
+@import"_scroll";
+// _bottomRightButtons
+@import"_bottomRightButtons";

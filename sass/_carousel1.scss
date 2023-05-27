@@ -1,0 +1,27 @@
+#carouselExampleIndicators {
+  position: relative;
+
+  // &::after {
+  //   content: '';
+  //   position: absolute;
+  //   top: 0;
+  //   left: -100px;
+  //   width: 900px;
+  //   height: 460px;
+  //   background: rgb(255, 255, 255);
+  //   background: linear-gradient(90deg, rgba(204, 204, 204, 0.804) 1%, rgba(255, 255, 255, 1) 100%, rgba(185, 70, 183, 1) 100%, rgba(88, 219, 96, 1) 100%);
+  //   opacity: 0.2;
+  //   clip-path: polygon(64% 0, 83% 9%, 59% 100%, 0 100%, 20% 0);
+  //   animation: mymove 3s infinite;
+  // }
+
+  @keyframes mymove {
+    from {
+      left: -100px;
+    }
+
+    to {
+      left: 100%;
+    }
+  }
+}

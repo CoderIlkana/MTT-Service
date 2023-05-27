@@ -1,0 +1,64 @@
+.MTT {
+    .container{
+
+        // width: 100%;
+        padding: 70px 0px 0px 0px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+
+.section1 {
+    // width: 100%;
+    height: auto;
+    background-image: url('/imgs/sectionBacground/bg.jpg');
+    background-size: cover;
+     padding-bottom: 120px;
+    .text {
+        // width: 100%;
+        padding-top: 100px;
+
+        .text-top {
+            // width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .span1 {
+                width: 3%;
+                height: 2px;
+                background-color: red;
+            }
+
+            .span-text {
+                font-size: 10px;
+                font-weight: 600;
+                padding: 0px 15px;
+                text-align: center;
+            }
+        }
+
+        .text-bottom {
+           .container{
+             // width: 100%;
+            // height: 100px;
+            text-align: center;
+            padding: 5px 55px;  
+            color: #575E65;
+           }
+        }
+
+    }
+}
+
+
+
+
+
+

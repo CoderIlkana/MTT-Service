@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--  -->
+
+    <link rel="stylesheet" href="/sass/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- -------header-top----- -->
+    <div class="header-top d-none d-lg-block">
+      <div class="container p-0">
+        <div class="row">
+          <!-- ------------------------------------------------ -->
+          <div class="top-left">
+            <div>
+              <a href="/MTTServiceMenteqelerimiz/mttservice.html"
+                >MTT Service Məntəqələrimiz</a
+              >
+            </div>
+            <div class="ms-5">
+              <a href="/FrequentlyAskedQuestion/Asked.html"
+                >Tez-tez verilen suallar</a
+              >
+            </div>
+          </div>
+
+          <!-- --------------------------------------------------->
+          <div class="top-right">
+            <div><i class="fa-regular fa-envelope me-2"></i></div>
+            <div class="solitonservice">office@solitonservice.com</div>
+            <div class="icon1 me-5">
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i class="fa-brands fa-instagram ms-2"></i
+              ></a>
+              <a href="https://www.youtube.com/" target="_blank"
+                ><i class="fa-brands fa-youtube ms-2"></i
+              ></a>
+              <a
+                href="https://api.whatsapp.com/send/?phone=%2B994516189630&text&type=phone_number&app_absent=0"
+                target="_blank"
+                ><i class="fa-brands fa-whatsapp ms-2" target="_blank"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------------------header ------------------>
+    <div class="header-center">
+      <div class="container">
+        <div class="row">
+          <!-- --------------------------------------- -->
+          <div class="left-box">
+            <a href="/index.html"> <img src="/imgs/logo.svg" alt="" /></a>
+          </div>
+          <!-- -------------------------- -->
+          <div class="center-box d-none d-lg-flex">
+            <a href="">
+              <i class="me-1 fa-solid fa-phone"></i>(+994 12) 565-1-565</a
+            >
+          </div>
+
+          <!-- ------------------------------------------>
+          <div class="right-box d-none d-lg-flex">
+            <a href=""
+              ><i class="me-1 fa-solid fa-phone"></i>(+994 12) 565-1-565</a
+            >
+          </div>
+
+          <div
+            class="bars d-lg-none d-block me-lg-0 me-md-4 me-5"
+            onclick="showMenu(this)"
+          >
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+   
+     <!-- hide box-->
+     <section id="hide" class="secTwo d-lg-none d-block">
+      <!-- lang box -->
+      <div class="language-openmenu">
+        <div class="langbox">
+          <p>AZ</p>
+          <p>EN</p>
+          <p>RU</p>
+        </div>
+      </div>
+
+      <!-- ul li -->
+      <ul class="secUl">
+        <li><a href="/index.html">Əsas səhifə</a></li>
+        <div class="accordionWrapper">
+          <div class="accordionItem open">
+            <div class="accordionItemContent">
+              <!-- click -->
+              <button class="accordion">Temir</button>
+              <div class="panel">
+                <ul>
+                  <li>
+                    <a href="/AirConditioner/AirConditioner.html"
+                      >Kondisioner temiri</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/Refrigerator/Refrigerator.html"
+                      >Soyuducu temiri</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/WashingMachine/WashingMachine.html"
+                      >Paltaryuyan temiri</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/DishwashingMachine/DishwashingMachine.html"
+                      >Sənaye tipli qabyuyan təmiri</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="/RepairOfIndustrialType/RepairOfIndustrialType.html"
+                      >Sənaye tipli paltaryuyan təmiri</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/DryingMachine/DryingMachine.html"
+                      >Sənaye tipli quruducu təmiri</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- click -->
+              <button class="accordion">Quraşdırılma</button>
+              <div class="panel">
+                <ul>
+                  <li><a href="/AirConditioner2/AirConditioner2.html">Kondisioner qurasdirilmasi</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+       
+        </div>
+        <!-- <li><a href="#">Quraşdırılma</a></li> -->
+        <li><a href="/Masterorder/MasterOrder.html">Usta sifarişi</a></li>
+        <li><a href="/Delivery/Delivery.html">Çatdırılma</a></li>
+        <li><a href="/AboutUs/AboutUs.html">Haqqımızda</a></li>
+        <li><a href="/FrequentlyAskedQuestion/Asked.html">Tez-tez verilən suallar</a></li>
+        <li><a href="/Contact/contact.html">Əlaqə</a></li>
+      </ul>
+
+      <!-- number box -->
+      <div class="numberbox-openmenu">
+        <div class="numberbox">
+          <a href="tel:+994555555555"
+            ><i class="me-1 fa-solid fa-phone"></i> (+994 99) 322 32 44</a
+          >
+          <a href="tel:+994555555555">
+            <i class="me-1 fa-solid fa-phone"></i>(+994 51) 618 96 30</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- ------------------------------- navbar------------------->
+
+    <div class="navbarr d-none d-lg-block">
+      <div class="container p-0">
+        <div class="nav">
+          <ul class="ulNav" id="ulNav">
+            <li class="liNav"><a class="activeli" href="/index.html" id="EsasSehife">Esas sehife</a></li>
+            <!--  -->
+            <li class="liNav">
+              <a class="activeli"  href="">Temir<i class="ms-2 fa-solid fa-angle-down"></i> </a>
+              <div class="dropdownn-menu">
+                <ul class="ulDropdownMenu">
+                  <li class="liDropdownMenu">
+                    <a href="/AirConditioner/AirConditioner.html"
+                      >Kondisioner temiri</a
+                    >
+                  </li>
+                  <li class="liDropdownMenu">
+                    <a href="/Refrigerator/Refrigerator.html"
+                      >Soyuducu temiri</a
+                    >
+                  </li>
+                  <li class="liDropdownMenu">
+                    <a href="/WashingMachine/WashingMachine.html"
+                      >Paltaryuyan temiri</a
+                    >
+                  </li>
+                  <li class="liDropdownMenu">
+                    <a href="/DishwashingMachine/DishwashingMachine.html"
+                      >Senaye tipli qabyuyan temiri</a
+                    >
+                  </li>
+                  <li class="liDropdownMenu">
+                    <a
+                      href="/RepairOfIndustrialType/RepairOfIndustrialType.html"
+                      >Senaye tipli paltaryuyan temiri</a
+                    >
+                  </li>
+                  <li class="liDropdownMenu border-bottom-0">
+                    <a href="/DryingMachine/DryingMachine.html"
+                      >Senaye tipli quruducu temiri</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="liNav">
+              <a href="" class="activeli"
+                >Qurasdirma<i class="ms-2 fa-solid fa-angle-down"></i
+              ></a>
+              <div class="dropdownn-menu2">
+                <ul class="ulDropdownMenu2">
+                  <li class="liDropdownMenu2">
+                    <a href="/AirConditioner2/AirConditioner2.html">Kondisioner qurasdirilmasi</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="liNav">
+              <a class="activeli" href="/Masterorder/MasterOrder.html">Usta sifarisi</a>
+            </li>
+            <li class="liNav">
+              <a class="activeli" href="/Delivery/Delivery.html">Catdirilma</a>
+            </li>
+            <li class="liNav">
+              <a class="activeli active" href="/AboutUs/AboutUs.html">Haqqimizda</a>
+            </li>
+            <li class="liNav"><a class="activeli" href="/Contact/contact.html">Elaqe</a></li>
+            <li class="liNav">
+              <select id="langs">
+                <option class="option1" value="az">AZ</option>
+                <option class="option1" value="en">EN</option>
+                <option class="option1" value="ru">RU</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------- section 1--------- -->
+
+    <div class="cardOnebox2">
+      <div class="container">
+        <div class="cardOneCenter2 col-12" data-aos="zoom-in">
+          <img class="aboutimg1" src="/AboutUs/imgs/bg1.jpg" alt="" />
+          <h1 class="mt-5">MTT Servis. Texniki servis haqqında</h1>
+          <p class="mt-3">
+            MTT Servis təcrübəli servis usta və konsultantlar komandasıdır ki,
+            hər bir texniki servis problemdə sizə köməklik göstərməyə
+            hazırdılar. Aldığınız malda istənilən nasazlıq olduğunda bizim
+            texniki servis mərkəzi ilə əlaqə saxlaya bilərsiniz. Bizim
+            məhsullarımız davamlıdırlar. Uzun müddətli iş və zəmanət keyfiyyəti
+            bizim vacib meyarlarımızdandır. Bütün məhsullarımız satışa
+            buraxılmamışdan qabaq kompüter testindən keçirilir. MTT servis
+            mərkəzində zəmanət müddəti ərzində hər hansı bir detal
+            çatışmamazlığı ilə yaranan problemlər texniki servis tərəfindən
+            pulsuz həll olunur.
+          </p>
+<!-- ------------- -->
+          <div class="OneBox row">
+            <div class="logo1 col-lg-1 col-md-12  d-flex align-items-md-start  align-items-center justify-content-md-start justify-content-center  ">
+              <div class="icon-Spare2">
+                <img src="/imgs/logoS.svg" alt=""  />
+              </div>
+            </div>
+            <div class="text1 col-lg-5 col-md-12 text-md-start text-center">
+              <h5 data-aos="fade-up">Ehtiyyat hissələri və aksesuarlar</h5>
+              <p class="pe-md-5 pe-0" data-aos="fade-up">
+                Bilavasitə texniki servis tərəfindən əldə olunan orijinal
+                detallar tam əminlik yaradır. Çünki, bu detallar alınan məhsula
+                tam uyğundur və istənilən keyfiyyəti təmin edə bilərlər. Lazım
+                olan hissələri əldə etmək üçün servisə müraciət edə bilərsiniz.
+              </p>
+            </div>
+            <div class="logo1 col-lg-1 col-md-12 d-flex align-items-md-start  align-items-center justify-content-md-start justify-content-center">
+              <div class="icon-Spare2">
+                <img src="/imgs/logoS.svg" alt="" />
+              </div>
+            </div>
+            <div class="text1 col-lg-5 col-md-12 text-md-start text-center">
+              <h5 data-aos="fade-up">Zəmanət qüvvəsi</h5>
+              <p class="pe-md-5 pe-0" data-aos="fade-up">
+                MTT servis şəbəkəsi öz məhsullarına yüksək keyfiyyət verir və
+                bütün məhsullarına 1 ildən 3 ilədək zəmanət təklif edir. Biz
+                sizə pulsuz çatdırılma və quraşdırılmanı təklif edirik. Həmçinin
+                bizim texniki servis sizə məişət texnikasının təmiri xidmətini
+                təklif edir. Çatdırılma həftənin bütün günləri həyata keçirilir.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------- footer---------------------- -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- ----------- -->
+          <div class="box1footer col-12 col-sm-6 col-lg-3">
+            <div class="img-footer">
+              <img src="/imgs/footer/logoFooter.svg" alt="" />
+            </div>
+
+            <p>
+              MTT Servis təcrübəli servis usta və konsultantlar komandasıdır
+            </p>
+            <div class="iconbox1footer">
+              <a href="https://www.facebook.com/"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="https://www.instagram.com/" class="ms-3"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.youtube.com/" class="ms-3"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a
+                href="https://api.whatsapp.com/send/?phone=%2B994516189630&text&type=phone_number&app_absent=0"
+                class="ms-3"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- ----------------- -->
+          <div class="box2footer col-12 col-sm-6 col-lg-4">
+            <h5>Saytın xəritəsi</h5>
+
+            <div class="listFooter d-flex">
+              <!-- -left -->
+              <div class="listf">
+                <ul>
+                  <li><i class="fa-solid fa-angles-right"></i>Əsas səhifə</li>
+                  <li><i class="fa-solid fa-angles-right"></i>Quraşdırılma</li>
+                  <li><i class="fa-solid fa-angles-right"></i>Çatdırılma</li>
+                  <li><i class="fa-solid fa-angles-right"></i>Əlaqə</li>
+                </ul>
+              </div>
+              <!-- right- -->
+              <div class="listf ms-5">
+                <ul>
+                  <li><i class="fa-solid fa-angles-right"></i>Təmir</li>
+                  <li><i class="fa-solid fa-angles-right"></i>Usta sifarişi</li>
+                  <li><i class="fa-solid fa-angles-right"></i> Haqqımızda</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------- -->
+          <div class="box2footer col-12 col-sm-12 col-lg-5">
+            <h5>Əlaqə</h5>
+
+            <div class="listFooter d-flex">
+              <!-- -left -->
+              <div class="listf">
+                <ul>
+                  <li>
+                    <i class="me-1 fa-solid fa-phone"></i>(+994 99) 322 32 44
+                  </li>
+                  <li>
+                    <i class="me-1 fa-solid fa-phone"></i>(+994 51) 618 96 30
+                  </li>
+                </ul>
+              </div>
+              <!-- right- -->
+              <div class="listf ms-5">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i> Bakı ş., Şamaxı
+                    yolu 15-ci km.
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope"></i> office@mttservice.net
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- footerbottom -->
+          <hr />
+          <div class="footerbottom">
+            <div class="container">
+              <div class="row">
+                <!-- --------- -->
+                <div class="leftBottomfooter col-12 col-md-6">
+                  <p>© 2022 MTT Service. Müəllif hüquqları qorunur.</p>
+                </div>
+                <!-- ------- -->
+                <div
+                  class="rightBottomfooter col-12 col-md-6 d-flex justify-content-md-end justify-content-start"
+                >
+                  <a>Site By <img src="/imgs/footer/jedai.png" alt="" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<!-- ---------------js----------------- -->
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- // aos-- -->
+  <script>
+    AOS.init();
+  </script>
+    <script src="../js/openMenu.js"></script>
+    <script src="/js/active.js"></script>
+    <script src="/js/accardion.js"></script>
+
+
+  </body>
+</html>
